@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEXT</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="interactiveweb.css">
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <div id="icon-layer"></div>
+
+  <div class="center">
+    <button id="hiBtn">Interactive Button</button>
+
+    <div id="question">
+      <div class="question-text">Interactive Button</div>
+      <div class="choices">
+        <button class="yes">click this</button>
+        <button class="no">try to click</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🎵 Background Song -->
+  <audio id="bgSong" preload="auto" loop>
+    <source src="songofyourwish.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- 🖼️ GALLERY CARD (NEW — NOTHING ELSE TOUCHED) -->
+  <div id="galleryWrapper">
+    <div id="galleryCard">
+      <div id="galleryIntro">♡♡</div>
+
+      <div id="mediaContainer"></div>
+
+      <div id="galleryNav">
+        <button id="prevBtn">‹</button>
+        <button id="nextBtn">›</button>
+        <button id="letterBtn">♡♡&gt;</button>
+      </div>
+    </div>
+    <div id="letterCard">
+  <div class="letterContent">
+   
+    <p>
+     RANDOM TEXT
+
+    </p>
+  </div>
+ </div>
+
+  </div>
+
+  <button id="muteBtn">🔊</button>
+
+  <script src="./Interactiveweb.js" defer></script>
+ <button id="replayBtn">↺ Replay</button>
+ <div id="noOverlay">
+  <div class="noMessage">
+     haha
+  </div>
+ </div>
+
+
+</body>
+</html>
